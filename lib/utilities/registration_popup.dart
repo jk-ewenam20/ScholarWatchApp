@@ -8,25 +8,46 @@ class reg_pop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // ignore: prefer_const_constructors
-    return  Padding(
-      padding: const EdgeInsets.all(50),
+    return  Center(
       
-      child: Column(
-        children: [
-          Container(
-            padding: EdgeInsets.all(30),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(100),
-              border: Border.all(width: 5, color: Colors.lightGreen)
-            ),
-            child: Icon(
-              Icons.check,
-            ),
+      child: Padding(
+        padding: const EdgeInsets.only(top: 270, bottom: 200),
+        
+        child: Container(
+          padding: EdgeInsets.all(15),
+          height: 210,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(8)
           ),
-          Text("Registration Successful"),
-        ],
+          child: Column(
+            children: [
+              
+              Container(
+                padding: EdgeInsets.all(25),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(100),
+                  border: Border.all(width: 5, color: Colors.lightGreen)
+                ),
+                child: Icon(
+                  Icons.check,
+                  size: 50,
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 30, right: 30, top: 20, bottom: 20),
+                child: Text("Registration Successful !!...",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+                ),
+              ),
+            ],
+          ),
+        ),
+        
       ),
-      
     );
   }
 }
