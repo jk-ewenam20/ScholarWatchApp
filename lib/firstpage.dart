@@ -8,7 +8,7 @@ import 'package:firstapp/Sign_in.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 class FirstPage extends StatefulWidget {
-  FirstPage({super.key});
+  const FirstPage({super.key});
 
   @override
   State<FirstPage> createState() => _FirstPageState();
@@ -40,15 +40,7 @@ class _FirstPageState extends State<FirstPage> {
         systemOverlayStyle: SystemUiOverlayStyle.dark,
         actions: [IconButton(onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context) => SignIn(),),);}, icon: Icon(Icons.logout_rounded)),],
         automaticallyImplyLeading: false,
-      //   // centerTitle: true,
-      //   // title: Text(
-      //   //   "FIRST PAGE",
-      //   // ),
-      //   // titleTextStyle: TextStyle(
-      //   //   color: Colors.white,
-      //   //   fontWeight: FontWeight.bold,
-      //   // ),
-      //   backgroundColor: Color.fromARGB(255, 71, 84, 107),
+
       ),
       
       body: _pages[_selectedIndex],
