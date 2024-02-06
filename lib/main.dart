@@ -15,6 +15,7 @@ class MyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: SignIn(),
@@ -22,7 +23,6 @@ class MyWidget extends StatelessWidget {
         '/firstpage':(context) => FirstPage(),
         '/Homepage':(context) => HomePage(),
         '/Profile':(context) => Profile(),
-        // '/logout':(context) => SignIn(),
         '/Sign in':(context) => HomePage(),
       },
     );

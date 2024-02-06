@@ -44,7 +44,13 @@ class _CoursesState extends State<Courses> {
         ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: reg_popup,
-        label: Text("Register"),
+        backgroundColor: Colors.tealAccent,
+        label: 
+          Text("Register",
+              style: TextStyle(
+                color: Colors.black,
+              ),
+        ),
           ),
             
             

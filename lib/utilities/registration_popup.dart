@@ -11,7 +11,7 @@ class reg_pop extends StatelessWidget {
     return  Center(
       
       child: Padding(
-        padding: const EdgeInsets.only(top: 270, bottom: 200),
+        padding: const EdgeInsets.only(top: 200, bottom: 200),
         
         child: Container(
           padding: EdgeInsets.all(15),

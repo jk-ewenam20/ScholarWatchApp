@@ -30,7 +30,7 @@ class coursesTile extends StatelessWidget {
           children: [
             Checkbox(value: courseChecked, 
             onChanged: onChanged,
-            activeColor: Colors.black,),
+            activeColor: Colors.green,),
             Text(courseName),
           ],
         ),

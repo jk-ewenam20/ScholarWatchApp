@@ -35,14 +35,41 @@ class _FirstPageState extends State<FirstPage> {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+      statusBarColor: Colors.white,
+      statusBarBrightness: Brightness.dark
+    ));
     return Scaffold(
       appBar: AppBar(
-        systemOverlayStyle: SystemUiOverlayStyle.dark,
         actions: [IconButton(onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context) => SignIn(),),);}, icon: Icon(Icons.logout_rounded)),],
-        automaticallyImplyLeading: false,
-
+        // automaticallyImplyLeading: false,
+        
       ),
-      
+      drawer: Drawer(
+        backgroundColor: Colors.white,
+        child: Column(
+          children: [
+            DrawerHeader(
+              child: 
+              Container(
+                padding: EdgeInsets.all(35),
+                child: Icon(
+                  Icons.person_2_rounded,
+                  size: 50,
+                  ),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    width: 5,
+                    color: Colors.black12,
+                  
+                  ),
+                  borderRadius: BorderRadius.circular(100),
+                ),
+              ),
+                )
+          ],
+        ),
+      ),
       body: _pages[_selectedIndex],
       
 

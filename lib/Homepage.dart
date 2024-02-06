@@ -9,12 +9,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       
+      
       body: Center(
         child: Icon(
           Icons.home_rounded,
           size: 50,
           color: Colors.black26,
           ),
+
+      
         
            
       ),
