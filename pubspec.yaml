@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  syncfusion_flutter_calendar: ^24.2.4
   flutter:
     sdk: flutter
 
@@ -52,6 +53,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/chad-stembridge-V2bG_Z_IpN0-unsplash.jpg
+  
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

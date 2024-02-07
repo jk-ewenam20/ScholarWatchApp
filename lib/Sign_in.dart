@@ -1,23 +1,11 @@
 // ignore_for_file: prefer_const_constructors, non_constant_identifier_names
 
-//import 'package:firstapp/Homepage.dart';
+
 import 'package:firstapp/firstpage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-// class Logout extends StatelessWidget {
-//   const Logout({super.key});
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: Center(
-//         child: Text('Logging Out'),
-//       ),
-//       backgroundColor: Colors.white, 
-//     );
-//   }
-// }
 
 
 

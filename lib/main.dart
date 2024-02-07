@@ -2,6 +2,7 @@
 
 import 'package:firstapp/Homepage.dart';
 import 'package:firstapp/Profile.dart';
+import 'package:firstapp/detailEvent.dart';
 import 'package:firstapp/firstpage.dart';
 import 'package:firstapp/Sign_in.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +25,8 @@ class MyWidget extends StatelessWidget {
         '/Homepage':(context) => HomePage(),
         '/Profile':(context) => Profile(),
         '/Sign in':(context) => HomePage(),
+        // '/L O G O U T':(context) => SignIn(),
+        '/detailEvent':(context) => DetailEvents(),
       },
     );
   }

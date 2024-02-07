@@ -66,7 +66,34 @@ class _FirstPageState extends State<FirstPage> {
                   borderRadius: BorderRadius.circular(100),
                 ),
               ),
-                )
+                ),
+            ListTile(
+              leading: Icon(Icons.event),
+              title: Text("E V E N T S"),
+              onTap: () {
+                Navigator.pop(context);
+                Navigator.pushNamed(context, '/detailEvent');
+                // Navigator.pop(context)
+              },
+            ),
+
+            ListTile(
+              leading: Icon(Icons.settings),
+              title: Text("S E T T I N G S"),
+            ),
+
+            ListTile(
+              leading: Icon(Icons.logout_rounded),
+              title: Text("L O G O U T"),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => SignIn(),),);
+              },
+            ),
+
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text("A B O U T"),
+            )
           ],
         ),
       ),

@@ -18,7 +18,8 @@ class reg_pop extends StatelessWidget {
           height: 210,
           decoration: BoxDecoration(
             color: Colors.white,
-            borderRadius: BorderRadius.circular(8)
+            borderRadius: BorderRadius.circular(8),
+            border: Border.all(width: 3, color: Colors.lightGreen),
           ),
           child: Column(
             children: [
@@ -35,7 +36,7 @@ class reg_pop extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 30, right: 30, top: 20, bottom: 20),
+                padding: const EdgeInsets.only(left: 30, right: 30, top: 10, bottom: 10),
                 child: Text("Registration Successful !!...",
                 style: TextStyle(
                   fontSize: 20,
