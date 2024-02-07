@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
+// ignore_for_file: prefer_const_constructors, non_constant_identifier_names, prefer_const_literals_to_create_immutables, unused_local_variable, avoid_unnecessary_containers
 
 
 import 'package:firstapp/firstpage.dart';
@@ -56,11 +56,17 @@ class _Logo extends StatelessWidget {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        FlutterLogo(size: isSmallScreen ? 100 : 200),
+        Container(
+          height: 150,
+          width: 150,
+          child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Image(image: AssetImage("assets/images/AppLogo.png")),
+        )),
         Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(10.0),
           child: Text(
-            "Welcome to CPEN Manager App",
+            "Welcome to Student Manager App",
             textAlign: TextAlign.center,
             style: TextStyle(
               fontFamily: 'Monospace',
