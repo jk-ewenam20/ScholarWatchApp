@@ -40,11 +40,11 @@ class Profile extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(topLeft:Radius.circular(10), topRight: Radius.circular(10)),
-                    color: Colors.black26,
+                    color: Colors.lightBlue,
                   ),
                   child: ListTile(
                     
-                    title: Text("NAME:"),
+                    title: Text("NAME: KOFI NHYIRA BOATENG"),
                     contentPadding: EdgeInsets.all(2),
                     // tileColor: Colors.black12,
                     
@@ -54,27 +54,27 @@ class Profile extends StatelessWidget {
 
                 ListTile(
                   
-                  title: Text("STUDENT ID:"),
+                  title: Text("STUDENT ID: KNB1123409"),
                   contentPadding: EdgeInsets.all(15),
-                  tileColor: Colors.black12,
+                  tileColor: Colors.lightBlueAccent,
                   
                   
                 ),
 
                 ListTile(
                   
-                  title: Text("PROGRAMME:"),
+                  title: Text("PROGRAMME: BSC COMPUTER ENGINEERING"),
                   contentPadding: EdgeInsets.all(15),
-                  tileColor: Colors.black26,
+                  tileColor: Colors.lightBlue,
                   
                   
                 ),
 
                 ListTile(
                   
-                  title: Text("EMAIL:"),
+                  title: Text("EMAIL: knboateng@st.ug.edu.gh"),
                   contentPadding: EdgeInsets.all(15),
-                  tileColor: Colors.black12,
+                  tileColor: Colors.lightBlueAccent,
                   
                   
                 ),
@@ -83,11 +83,11 @@ class Profile extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.only(bottomLeft:Radius.circular(10), bottomRight: Radius.circular(10)),
-                    color: Colors.black26,
+                    color: Colors.lightBlue,
                   ),
                   child: ListTile(
                     
-                    title: Text("CONTACT:"),
+                    title: Text("CONTACT: 0200534786"),
                     contentPadding: EdgeInsets.all(2),
                     
                     // tileColor: Colors.black12,

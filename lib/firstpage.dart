@@ -77,10 +77,10 @@ class _FirstPageState extends State<FirstPage> {
               },
             ),
 
-            ListTile(
-              leading: Icon(Icons.settings),
-              title: Text("S E T T I N G S"),
-            ),
+            // ListTile(
+            //   leading: Icon(Icons.settings),
+            //   title: Text("S E T T I N G S"),
+            // ),
 
             ListTile(
               leading: Icon(Icons.logout_rounded),
@@ -90,10 +90,10 @@ class _FirstPageState extends State<FirstPage> {
               },
             ),
 
-            ListTile(
-              leading: Icon(Icons.info),
-              title: Text("A B O U T"),
-            )
+            // ListTile(
+            //   leading: Icon(Icons.info),
+            //   title: Text("A B O U T"),
+            // )
           ],
         ),
       ),

@@ -13,8 +13,13 @@ class Courses extends StatefulWidget {
 
 class _CoursesState extends State<Courses> {
   List coursesList = [
-    ["First course", false],
-    ["Some course", false],
+    ["Database Systems Design, CPEN 211", false],
+    ["C++ Programming, CPEN 201", false],
+    ["Programming for Engineers, SENG 207", false],
+    ["Linear Algebra, SENG 201", false],
+    ["Discrete Mathematics, CPEN 213", false],
+    ["Digital Circuits, CPEN 203", false],
+    
   ];
 
   void checkBoxChanged(bool? p0, int index) {
